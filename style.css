@@ -9,8 +9,8 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 33% auto 10%;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(9, 1fr);
+    /*grid-template-rows: 100px 100px 100px;*/
 }
 .container > div {
     font-weight: bold;

@@ -11,8 +11,8 @@ body{
     display: grid;
     border: solid white 1px;
     height: 500px;
-    justify-items: center;  /*left right*/
-
+    justify-items: center; /*left right*/
+    /*align-items: flex-end; !* flex-end flex-start flex-center *!*/
 }
 .container > div {
     font-weight: bold;

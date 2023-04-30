@@ -9,7 +9,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 12% 10%;
     grid-template-rows: 100px 100px 100px;
 }
 .container > div {

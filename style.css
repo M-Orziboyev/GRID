@@ -11,7 +11,7 @@ body{
     display: grid;
     border: solid white 1px;
     height: 500px;
-    justify-items: center; /*left right*/
+    justify-items: center;  /*left right*/
     align-content: flex-end; /* flex-end flex-start flex-center */
 }
 .container > div {

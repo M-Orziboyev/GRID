@@ -11,7 +11,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /*grid-template-rows: 100px 100px 100px;*/
-    gap: 10px;
+    gap: 10px 100px;
 }
 .container > div {
     font-weight: bold;

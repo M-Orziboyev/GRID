@@ -30,7 +30,7 @@ body {
     grid-area: footer;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .container {
         display: grid;
         border: solid white 1px;

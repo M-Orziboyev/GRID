@@ -5,9 +5,16 @@ body{
 .container{
     display: grid;
     border: solid white 1px;
-    height: 500px;
-    /*align-content: flex-end; !* flex-end flex-start flex-center *!*/
-    justify-items: center;
+    gap: 10px;
+    grid-template-columns: [start] 1fr [middle] 1fr 1fr [end];
+    grid-auto-rows: 100px;
+}
+.el1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.el2{
+    grid-column: middle / end;
 }
 .container > div {
     font-weight: bold;
